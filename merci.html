@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merci ! - Will</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #f0fdf4, #fff); padding: 24px; }
+    .card { text-align: center; max-width: 500px; }
+    .check { width: 80px; height: 80px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px; }
+    .check svg { width: 40px; height: 40px; color: white; }
+    h1 { font-size: 36px; font-weight: 800; margin-bottom: 12px; color: #128C7E; }
+    p { font-size: 18px; color: #666; line-height: 1.6; margin-bottom: 32px; }
+    .cta { display: inline-flex; align-items: center; gap: 10px; background: #25D366; color: white; padding: 16px 36px; border-radius: 50px; font-size: 18px; font-weight: 700; text-decoration: none; transition: transform 0.2s; }
+    .cta:hover { transform: scale(1.05); }
+    .back { display: block; margin-top: 16px; color: #999; font-size: 14px; text-decoration: none; }
+    .back:hover { color: #128C7E; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="check">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    </div>
+    <h1>Merci !</h1>
+    <p>Ton abonnement est active. Retourne sur WhatsApp pour continuer a apprendre avec Will !</p>
+    <a href="https://wa.me/TONWHATSAPPID?text=Mon%20abonnement%20est%20actif%20!" class="cta">Retourner sur WhatsApp</a>
+    <a href="/" class="back">Retour a l'accueil</a>
+  </div>
+</body>
+</html>
