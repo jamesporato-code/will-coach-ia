@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/offres"
+  to = "/#offres"
+  status = 301
